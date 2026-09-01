@@ -44,7 +44,7 @@ API_KEY = os.environ.get("LLM_API_KEY")
 
 # --- Option A: Google Gemini (free tier, get a key at aistudio.google.com) --
 BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai"
-MODEL = "gemini-2.0-flash"
+MODEL = "gemini-3.6-flash"
 
 # --- Option B: OpenAI ---------------------------------------------------
 # BASE_URL = "https://api.openai.com/v1"
